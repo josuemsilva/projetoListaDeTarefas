@@ -7,7 +7,7 @@ import Private from "./Private";
 function RoutesApp() {
   return (
     <Routes>
-      <Route path="/projetoLista" element={<Home />} />
+      <Route path="/projetoListaDeTarefas" element={<Home />} />
       <Route
         path="/admin"
         element={
